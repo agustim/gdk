@@ -70,6 +70,9 @@ vagrant up
 
 The process takes a few minutes. After that, you can start editing the code in your local machine and see the results live at http://localhost:8280
 
+You need save configuration of theme in:
+http://localhost:8280/ca/admin/build/themes/settings/guifi.net2011
+
 If you need to make changes to the guest virtual machine, you can open a terminal via SSH:
 ```
 vagrant ssh
