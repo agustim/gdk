@@ -69,7 +69,7 @@ sudo ln -s /var/www/html/drupal-* /var/www/html/${PROJECT}
 
 # Instal·lar moduls
 cd drupal-*/sites/all/modules/
-MODULS_LIST=""
+MODULS_LIST="fivestar-7.x-2.1 votingapi-7.x-2.12 front-7.x-2.4 diff-7.x-3.2 eu_cookie_compliance-7.x-1.14 spambot-7.x-1.4 devel-7.x-1.5 image-7.x-1.x-dev image_filter-7.x-1.0"
 for module in $MODULS_LIST
 do
   sudo wget http://ftp.drupal.org/files/projects/${module}.tar.gz
